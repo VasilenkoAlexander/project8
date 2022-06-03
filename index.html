@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="swiperJS/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <title>Dart Service - dream team!</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="" class="header__logo">
+                    <img src="img/logo.svg" alt="logo">
+                    <p> <span>Dart</span> <br> Service Manager</p>
+                </a>
+
+                <nav class="header__nav nav">
+                    <a href="#Home" class="nav__link">Home</a>
+                    <a href="#Service" class="nav__link">Service</a>
+                    <a href="#Reviews" class="nav__link">Reviews</a>
+                    <a href="#Team" class="nav__link">Team</a>
+                    <a href="#Contacts" class="nav__link">Contacts</a>
+                </nav>
+
+                <a href="#" class="header__signUp">sign up</a>
+            </div>  
+        </header>
+
+        <main class="page" id="Home">
+            <section class="page__main-block main-block">
+                <div class="main-block__container _container">
+                    <div class="main-block__body">
+
+                        <div class="main-block__text">
+                            <h1 class="main-block__title">lorem Ipsum <br>
+                                Dolor sit amet</h1>
+                            <p class="main-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud exercitation ullamc</p>
+
+                            <div class="main-block__links">
+                                <a href="" class="main-block__link link">Buy now</a>
+                                <a href="" class="main-block__link link">Try for free</a>
+                            </div>
+                        </div>
+                        <div class="main-block__video">
+                            <video loop="loop" autoplay="true" playsinline="true" poster="" muted="muted">
+                                <source src="video/video_main-page.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main-block__image _ibg">
+                    <img src="img/main-page/bg.jpg" alt="Background_main">
+                </div>
+            </section>
+
+            <section class="page__about about" id="About">
+                <div class="about__container _container">
+                    <h2 class="about__title title">Easy & Useful</h2>
+                    <p class="about__subtitle subtitle">Project Management Tool</p>
+                    <p class="about__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+
+                    <div class="about__body">
+                        <div class="about__row">
+                            <div class="about__item item">
+                                <img src="img/about/note.png" alt="Note" class="item__img">
+                                <p class="item__title">Title Goes Here</p>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                            <div class="about__item item">
+                                <img src="img/about/man.png" alt="man" class="item__img">
+                                <p class="item__title">Title Goes Here</p>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                            <div class="about__item item">
+                                <img src="img/about/worker.png" alt="Worker" class="item__img">
+                                <p class="item__title">Title Goes Here</p>
+                                <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="about__link link">Get started</a>
+                    </div>    
+                </div>
+            </section>
+
+            <section class="page__achivment achivment">
+                <div class="achivment__container _container">
+                    <div class="achivment__row">
+                        <div class="achivment__item achivment__item-blue">
+                            <img src="img/achivment/business.png" alt="Bussines" class="achivment__icon">
+                            <span class="achivment__text">12000+ <br>
+                                Business</span>
+                        </div>
+
+                        <div class="achivment__item achivment__item-darkBlue">
+                            <img src="img/achivment/file_download.png" alt="file_download" class="achivment__icon">
+                            <span class="achivment__text">60000+ <br>
+                                Downloads</span>
+                        </div>
+
+                        <div class="achivment__item achivment__item-violet">
+                            <img src="img/achivment/person.png" alt="person" class="achivment__icon">
+                            <span class="achivment__text">30000+ <br>
+                                Free Installs</span>
+                        </div>
+
+                        <div class="achivment__item achivment__item-pink">
+                            <img src="img/achivment/file_download_pink.png" alt="file_download" class="achivment__icon">
+                            <span class="achivment__text">4000+
+                                Pro Users</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__services services" id="Service">
+                <div class="services__container _container">
+                    <div class="services__body">
+                        <h2 class="services__title title">Services</h2>
+                        <p class="services__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                    </div>
+                    <div id="accordion" class="accordion">
+                        <div class="accordion-item show">
+                          <div class="accordion-item-header">
+                            <span> <i class="fa fa-line-chart" aria-hidden="true"></i></span>
+                            Statistic
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                          </div>
+                          <div class="accordion-item-content">
+                            <div class="accordion__content-body">
+                                <div class="accordion__image">
+                                    <img src="img/services/statistic.png" alt="Statistic">
+                                </div>
+                                <div class="accordion__content-body_text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, deserunt quis. Molestias ullam exercitationem adipisci ducimus accusamus similique dolor voluptatem iste consequuntur? Ut commodi dolore ad, saepe voluptatem veritatis laboriosam.
+                                </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                        <div class="accordion-item">
+                          <div class="accordion-item-header">
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            Inbox
+                            <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                          </div>
+                          <div class="accordion-item-content">
+                            <div class="accordion__content-body">
+                                <div class="accordion__image">
+                                    <img src="img/services/statistic.png" alt="Statistic">
+                                </div>
+                                <div class="accordion__content-body_text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, deserunt quis. Molestias ullam exercitationem adipisci ducimus accusamus similique dolor voluptatem iste consequuntur? Ut commodi dolore ad, saepe voluptatem veritatis laboriosam.
+                                </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-item-header">
+                                <span><i class="fa fa-users" aria-hidden="true"></i></span>
+                              Team
+                              <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="accordion-item-content">
+                                <div class="accordion__content-body">
+                                    <div class="accordion__image">
+                                        <img src="img/services/statistic.png" alt="Statistic">
+                                    </div>
+                                    <div class="accordion__content-body_text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, deserunt quis. Molestias ullam exercitationem adipisci ducimus accusamus similique dolor voluptatem iste consequuntur? Ut commodi dolore ad, saepe voluptatem veritatis laboriosam.
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-item-header">
+                              <span> <i class="fa fa-cog" aria-hidden="true"></i></span>
+                              Settings
+                              <span><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="accordion-item-content">
+                                <div class="accordion__content-body">
+                                    <div class="accordion__image">
+                                        <img src="img/services/statistic.png" alt="Statistic">
+                                    </div>
+                                    <div class="accordion__content-body_text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, deserunt quis. Molestias ullam exercitationem adipisci ducimus accusamus similique dolor voluptatem iste consequuntur? Ut commodi dolore ad, saepe voluptatem veritatis laboriosam.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-item-header">
+                              <span> <i class="fa fa-rss" aria-hidden="true"></i></span>
+                              Feed
+                              <span class="slslls"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="accordion-item-content">
+                              <div class="accordion__content-body">
+                                <div class="accordion__image">
+                                    <img src="img/services/statistic.png" alt="Statistic">
+                                </div>
+                                <div class="accordion__content-body_text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, deserunt quis. Molestias ullam exercitationem adipisci ducimus accusamus similique dolor voluptatem iste consequuntur? Ut commodi dolore ad, saepe voluptatem veritatis laboriosam.
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="page__reviews reviews" id="Reviews">
+                <div class="reviews__container _container">
+                    <div class="reviews__body">
+                        <h2 class="reviews__title title">What our customers <br>
+                            have to say about us.</h2>
+                        <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+
+                        <a href="#" class="reviews__link link">Get started</a>
+                    </div>
+
+                    <div class="reviews__slider">
+                        <div class="reviews__slider_prev">
+                            <i id="prev" class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+                        </div>
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              
+                                <div class="swiper-slide test_slide">
+                                    <div class="swiper__content">
+                                        <div class="swiper__userPhoto">
+                                            <img src="img/reviews/userAvatar.png" alt="John Doe">
+                                        </div>
+                                        <div class="swiper__textReview">
+                                            <h4>John Doe</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta voluptatem esse earum, fugiat consequatur eveniet eos repudiandae? Rerum, sed? Adipisci amet, et ducimus doloribus ratione error est deserunt ex!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="swiper__content">
+                                        <div class="swiper__userPhoto">
+                                            <img src="img/reviews/userAvatar2.png" alt="Merry Queen">
+                                        </div>
+                                        <div class="swiper__textReview">
+                                            <h4>Merry Queen</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta voluptatem esse earum, fugiat consequatur eveniet eos repudiandae? Rerum, sed? Adipisci amet, et ducimus doloribus ratione error est deserunt ex!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="swiper__content">
+                                        <div class="swiper__userPhoto">
+                                            <img src="img/reviews/userAvatar.png" alt="Jonhson Bobe">
+                                        </div>
+                                        <div class="swiper__textReview">
+                                            <h4>Jonhson Bobe</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta voluptatem esse earum, fugiat consequatur eveniet eos repudiandae? Rerum, sed? Adipisci amet, et ducimus doloribus ratione error est deserunt ex!</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="swiper__content">
+                                        <div class="swiper__userPhoto">
+                                            <img src="img/reviews/userAvatar.png" alt="John Doe">
+                                        </div>
+                                        <div class="swiper__textReview">
+                                            <h4>John Doe</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta voluptatem esse earum, fugiat consequatur eveniet eos repudiandae? Rerum, sed? Adipisci amet, et ducimus doloribus ratione error est deserunt ex!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- If we need pagination -->
+                            <!-- <div class="reviews__slider_pagination swiper-pagination"></div> -->
+                          
+                            <!-- If we need navigation buttons -->
+                            <!-- <div class="reviews__slider_prev swiper-button-prev"></div>
+                            <div class="reviews__slider_next swiper-button-next"></div> -->
+                        </div>
+                        <div class="reviews__slider_next">
+                            <i id="next" class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__team team" id="Team">
+                <div class="team__container _container">
+                    <h2 class="team__title title">Our Team</h2>
+                        <p class="team__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna</p>
+                    <div class="team__body">
+                        <div class="team__avatar">
+                            <img src="img/team/avatar_1.png" alt="" class="team__avatar_turner" onmouseover="seeContent(1)">
+                            <img src="img/team/avatar_2.png" alt="" class="team__avatar_vasilenko" onmouseover="seeContent(2)">
+                            <img src="img/team/avatar_3.png" alt="" class="team__avatar_davydova" onmouseover="seeContent(3)">
+                        </div>
+                        <div class="team__content">
+                            <div class="develop__turner blok_hide" id="1">
+                                <h4 class="turner__name devName">Sophie Turner</h4>
+                                <p class="turner__text devText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus vero quod laudantium asperiores qui explicabo inventore aliquid sint repellendus nam molestiae numquam ipsa fugit quo quibusdam modi, amet illum esse?</p>
+                                <ul class="turner__contact devContact">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="develop__vasilenko blok_hide" id="2">
+                                <h4 class="vasilenko__name devName">Vasilenko Natalia</h4>
+                                <p class="vasilenko__text devText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus vero quod laudantium asperiores qui explicabo inventore aliquid sint repellendus nam molestiae numquam ipsa fugit quo quibusdam modi, amet illum esse?</p>
+                                <ul class="vasilenko__contact devContact">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="develop__davydova blok_hide" id="3">
+                                <h4 class="davydova__name devName">Анастасия Давыдова</h4>
+                                <p class="davydova__text devText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus vero quod laudantium asperiores qui explicabo inventore aliquid sint repellendus nam molestiae numquam ipsa fugit quo quibusdam modi, amet illum esse?</p>
+                                <ul class="davydova__contact devContact">
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__contact contact" id="Contacts">
+                <div class="contact__container _container">
+                    <h2 class="contact__title title">Contact Us</h2>
+                    <p class="contact__text text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+
+                    <form action="#" class="contact__form">
+                        <input type="text" placeholder="First Name" class="contact__input">
+                        <input type="text" placeholder="Last Name" class="contact__input">
+                        <input type="email" placeholder="Email" class="contact__input">
+                        <input type="tel" placeholder="Phone" class="contact__input">
+
+                        <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                        <div class="contact__form_lastRow">
+                            <div><input type="checkbox" class="contact__form_check"> <span>subscribe to the newsletter</span>
+                            </div> 
+                            <button type="submit" class="contact__send">SEND</button>
+
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__body _container">
+                <div class="footer__leftBlock">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo.svg" alt="logo">
+                        <p> <span>Dart</span> <br> Service Manager</p>
+                    </a>
+
+                    <div class="footer__link">
+                        <a href="#">Privecy Policy</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Project</a>
+                    </div>
+                </div>
+
+                <div class="footer__rightBlock">
+                    <div class="footer__link_light">
+                        <a href="#Home">Home</a>
+                        <a href="#Service">Service</a>
+                        <a href="#Reviews">Reviews</a>
+                        <a href="#Team">Team</a>
+                        <a href="#Contacts">Contacts</a>
+                    </div>
+
+                    <ul class="footer__linksSocial devContact">
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                        <li><a href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
+
+                        <li><a href=""><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="swiperJS/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!-- Work time
+30.12.21 - 1 hour (fucking fonts in Photoshop)
+02.01.22 - 2 hours (fucking VIDEO)
+02.01.22 - 1 hours (not time to fuck)
+03.01.22 - 1 hour (not bad  - adaptive 2nd page)
+06.01.22 - 1 hour (menu)
+09.01.22 - 15 min (skip block accordeon)
+15.02.22 - 30 min (installation accordeon (50%) stylization remains)
+16.02.22 - 1 hour
+17.02.22 - 1 hour
+18.02.22 - 1.5 hour (complete slider) next step is adaptive page review
+19.02.22 - 20min create styles for page__team
+21.02.22 - 3 hour - complete script and page TEAM
+23.02.22 - 2 hour - the end
+
+15 hours - ogoooo dohua!
+-->
